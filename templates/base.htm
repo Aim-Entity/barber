@@ -7,8 +7,34 @@
     {% block head %}
     <title>CHANGE BLOCK HEAD</title>
     {% endblock %}
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{% static 'base/style.css' %}" />
   </head>
   <body>
     {% block content %} ADD A CONTENT BLOCK {% endblock %}
+
+    <div class="base-container">
+      <nav>
+        <div class="navigation">
+          <img
+            src="{% static 'base/imgs/logo.png' %}"
+            alt="Logo"
+            class="logo"
+          />
+
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">Log In</a></li>
+            <li><a href="">Sign Up</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </body>
 </html>
