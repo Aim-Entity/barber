@@ -1,4 +1,4 @@
-{% extends 'base.htm' %}
+{% extends 'base.htm' %} {% load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,9 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {% block head %}
     <title>Home</title>
+    <link rel="stylesheet" href="{% static 'home/style.css' %}" />
     {% endblock %}
   </head>
   <body>
-    {% block content %} {% endblock %}
+    {% block content %}
+    <div class="container">
+      <div class="section1">
+        <img
+          src="{% static 'home/imgs/barber.jpg' %}"
+          alt="Hero Image"
+          class="s1-hero"
+        />
+
+        <div class="s1-main-content">
+          <img
+            src="{% static 'home/imgs/arr_left.svg' %}"
+            alt="Arrow"
+            class="left-arrow"
+          />
+        </div>
+      </div>
+    </div>
+    {% endblock %}
   </body>
 </html>

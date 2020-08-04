@@ -1,0 +1,11 @@
+.s1-hero {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  width: 100%;
+}
+
+.left-arrow {
+  position: relative;
+}
