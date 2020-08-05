@@ -1,3 +1,7 @@
+.section1 {
+  height: 70vh;
+}
+
 .s1-hero {
   position: absolute;
   left: 0px;
@@ -66,4 +70,49 @@
 
 .progress-bar .bar1 {
   background-color: #ff793f;
+}
+
+.section2-grid {
+  margin: 0 auto;
+  width: 90%;
+  display: grid;
+  justify-content: center;
+}
+
+.s2-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.s2-grid-1 {
+  width: 347px;
+  height: 347px;
+  background: #05b7fa;
+}
+
+.s2-grid-img {
+  margin-top: 15px;
+}
+
+.s2-grid-title {
+  margin-top: 20px;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+}
+
+.s2-grid-par {
+  width: 85%;
+  font-size: 18px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.s2-grid-img-cover {
+  width: 347px;
+  height: 347px;
+  object-fit: cover;
 }
