@@ -116,3 +116,38 @@
   height: 347px;
   object-fit: cover;
 }
+
+.s3-container {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 90%;
+  display: grid;
+  justify-content: center;
+}
+
+.s3-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.s3-title {
+  text-align: center;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #000000;
+  margin-top: 15px;
+}
+
+.s3-par {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.8);
+}
