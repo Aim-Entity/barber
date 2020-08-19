@@ -7,11 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {% block head %}
     <title>About</title>
+    <link rel="stylesheet" href="{% static 'about/style.css' %}" />
     {% endblock %}
   </head>
   <body>
     {% block content %}
-    <h1>Test</h1>
+    <div class="container">
+      <div class="section1">
+        <img
+          src="{% static 'about/imgs/hero.jpg' %}"
+          alt="Hero Image"
+          class="s1-hero"
+        />
+
+        <div class="spacer"></div>
+
+        <div class="s1-main-content">
+          <div class="s1-title">
+            About <span class="s1-title-bold">Varber's</span>
+          </div>
+
+          <div class="breadcrumbs-holder">
+            <span class="breadcrumb"
+              ><a href=""> <p class="bc1">Home</p></a>
+              <p class="bc2">></p>
+              <a href=""><p class="bc3">About</p></a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
     {% endblock %}
   </body>
 </html>
