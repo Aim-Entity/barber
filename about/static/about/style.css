@@ -1,5 +1,5 @@
 .section1 {
-  height: 70vh;
+  height: 20vh;
 }
 
 .s1-hero {
@@ -100,4 +100,35 @@
   border-radius: 5px;
   color: #fff;
   font-size: 24px;
+}
+
+.s3-group {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+.s3-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #000000;
+}
+
+.s3-par {
+  font-size: 18px;
+  line-height: 27px;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.section3 {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.s3-group-info {
+  margin-left: 20px;
 }
