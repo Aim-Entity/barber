@@ -392,35 +392,38 @@ form {
     color: #ffffff;
   }
 
+  .section2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+
   .s2-cover {
-    width: 100%;
+    margin-top: 125px;
+    margin-right: 20px;
+    width: 50%;
     height: 499px;
     object-fit: cover;
-    margin-top: 155px;
   }
 
   .s2-container {
-    position: absolute;
-    margin-top: 95px;
-    color: #fff;
-    margin-left: 10px;
+    position: relative;
+    top: 0px;
+    color: #000;
+    margin-left: 25px;
+    margin-top: 30px;
   }
 
   .s2-sub-title {
-    margin-top: 210px;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 36px;
-
-    color: #ffffff;
+    margin-top: 85px;
+    color: #ff793f;
   }
 
   .s2-title {
     font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-
-    color: #ffffff;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000;
   }
 
   .s2-title-span {
@@ -428,6 +431,7 @@ form {
   }
 
   .s2-par1 {
+    width: 513px;
     margin-top: 25px;
     font-size: 18px;
   }
@@ -436,12 +440,21 @@ form {
     width: 198.88px;
     height: 50px;
 
-    border: 2px solid #fff;
+    border: 2px solid #ff793f;
     margin-top: 40px;
     background: none;
     border-radius: 5px;
-    color: #fff;
+    color: #ff793f;
     font-size: 24px;
+    cursor: pointer;
+  }
+
+  .section-seperator {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    border: 1px solid #898787;
   }
 
   .s3-group {
