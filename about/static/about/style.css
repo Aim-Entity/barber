@@ -479,9 +479,10 @@ form {
   }
 
   .section3 {
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
     margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
   }
 
   .s3-group-info {
@@ -491,11 +492,13 @@ form {
   .section4 {
     background: #f6f6f6;
     margin-top: 50px;
+    height: 605px;
   }
 
   .s4-info {
     position: relative;
     top: 40px;
+    height: 105px;
     width: 85%;
     margin: 0 auto;
     padding-left: 20px;
@@ -520,14 +523,16 @@ form {
   }
 
   .s4-faces {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
   }
 
   .s4-crew {
     object-fit: cover;
-    width: 100%;
+    width: auto;
   }
 
   .section5 {
