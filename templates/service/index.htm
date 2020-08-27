@@ -11,7 +11,51 @@
   </head>
   <body>
     {% block content %}
-    <h1>test</h1>
+    <div class="container">
+      <div class="section1">
+        <img
+          src="{% static 'service/imgs/hero.jpg' %}"
+          alt="Hero Image"
+          class="s1-hero"
+        />
+
+        <div class="spacer"></div>
+
+        <div class="s1-main-content">
+          <div class="s1-title">
+            About <span class="s1-title-bold">Varber's</span>
+          </div>
+
+          <div class="breadcrumbs-holder">
+            <span class="breadcrumb"
+              ><a href="{% url 'home' %}"> <p class="bc1">Home</p></a>
+              <p class="bc2">></p>
+              <a href="{% url 'service' %}"><p class="bc3">Service</p></a>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="section2">
+        <div class="s2-container">
+          <h2 class="s2-sub-title">Clean Cuts</h2>
+          <h1 class="s2-title">
+            Finding You Incredible Cuts</span>
+          </h1>
+
+          <p class="s2-par1">
+            congue quisque egestas diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat sed cras ornare arcu dui vivamus arcu felis bibendum
+          </p>
+
+          <button class="s2-btn orange-btn">Learn More</button>
+        </div>
+        <img
+          src="{% static 'service/imgs/user.jpg' %}"
+          alt="hero 2"
+          class="s2-cover"
+        />
+      </div>
+    </div>
 
     <script src="{% static 'service/app.js' %}"></script>
     {% endblock %}
