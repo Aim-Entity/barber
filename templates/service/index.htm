@@ -92,6 +92,89 @@
           class="s4-cover"
         />
       </div>
+
+      <div class="section5">
+        <div class="s5-left">
+          <h4 class="s5-sub">Get In Touch</h4>
+          <h2 class="s5-title">Contact Us</h2>
+
+          <div class="address s5-box">
+            <img
+              src="{% static 'home/imgs/location.svg' %}"
+              alt="Address"
+              class="address-img"
+            />
+
+            <div class="address-info s5-info">
+              <h3 class="address-title">ADDRESS</h3>
+              <p class="address-par">8273 NW 56th ST Miami, 33195 US</p>
+            </div>
+          </div>
+
+          <div class="phone s5-box">
+            <img
+              src="{% static 'home/imgs/phone.svg' %}"
+              alt="Phone"
+              class="phone-img"
+            />
+
+            <div class="phone-info s5-info">
+              <h3 class="phone-title">OFFICE PHONE</h3>
+              <p class="phone-par">+ 0511 01220 3320</p>
+            </div>
+          </div>
+
+          <div class="email s5-box">
+            <img
+              src="{% static 'home/imgs/email.svg' %}"
+              alt="Email"
+              class="email-img"
+            />
+
+            <div class="email-info s5-info">
+              <h3 class="email-title">EMAIL</h3>
+              <p class="email-par">info@agrom.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="s5-center">
+          <img
+            src="{% static 'base/imgs/logo.png' %}"
+            alt="Logo"
+            class="s5-logo"
+          />
+
+          <p class="s5c-par1">
+            Images from FreePik, Kiranshastry and Fontawesome
+          </p>
+
+          <p class="s5c-par2">Copyright 2020 Varber’s</p>
+        </div>
+
+        <div class="s5-right">
+          <form action="">
+            <input type="text" class="s5-name" placeholder="Name" required />
+            <input
+              type="text"
+              class="s5-email"
+              placeholder="Email Address"
+              required
+            />
+
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Your Message"
+              class="s5-message"
+            ></textarea>
+
+            <button type="submit" class="s5-btn blue-btn">Submit</button>
+          </form>
+        </div>
+      </div>
     </div>
     <script src="{% static 'service/app.js' %}"></script>
     {% endblock %}
