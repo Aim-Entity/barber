@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {% block head %}
     <title>Register</title>
+    <link rel="stylesheet" href="{% static 'users/style.css' %}" />
     {% endblock %}
   </head>
   <body>
     {% block content %}
     <div class="container">
-      <div class="form">
+      <div class="singup-form">
         <form method="POST">
           {% csrf_token %}
 

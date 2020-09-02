@@ -1,0 +1,19 @@
+.navigation {
+  background-color: #05b7fa;
+  height: 100px;
+}
+
+.base-ul {
+  margin: 0 auto;
+}
+
+.signup-form {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 960px) {
+  .logo {
+    display: none;
+  }
+}
