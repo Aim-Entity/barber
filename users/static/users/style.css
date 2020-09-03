@@ -273,4 +273,292 @@ form {
   .logo {
     display: none;
   }
+
+  .navigation {
+    background-color: #05b7fa;
+    height: 100px;
+  }
+
+  .base-ul {
+    margin: 0 auto;
+  }
+
+  .singup-form {
+    width: 40%;
+    height: 675px;
+    margin: 0 auto;
+
+    margin-top: 20px;
+    background: #6f6d6d;
+    border-radius: 5px;
+  }
+
+  legend {
+    padding-top: 15px;
+    border-bottom: solid 1px grey;
+    color: #fff;
+    font-size: 32px;
+    margin-left: 10%;
+    width: 215px;
+  }
+
+  #hint_id_username {
+    display: none;
+  }
+
+  #div_id_password1 li {
+    display: none;
+  }
+
+  #div_id_username,
+  #div_id_email,
+  #div_id_password1,
+  #div_id_password2 {
+    margin-top: 30px;
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  #div_id_username div,
+  #div_id_email div,
+  #div_id_password1 div,
+  #div_id_password2 div {
+    width: 215px;
+    position: relative;
+    left: 10%;
+    color: #fff;
+  }
+
+  #div_id_username div input,
+  #div_id_email div input,
+  #div_id_password1 div input,
+  #div_id_password2 div input {
+    position: relative;
+
+    width: 300px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+  }
+
+  .requiredField {
+    position: relative;
+    width: 166px;
+    left: 10%;
+  }
+
+  .asteriskField {
+    display: none;
+  }
+
+  #hint_id_password2 {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  #hint_id_password2 {
+    display: none;
+  }
+
+  .btn {
+    width: 185px;
+    height: 35px;
+    position: relative;
+    left: 10%;
+
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: none;
+
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #ffffff;
+
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  small {
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    left: 22%;
+    top: 15px;
+  }
+
+  .section2 {
+    margin-top: 25px;
+    display: flex;
+  }
+
+  .s2-left {
+    width: 50%;
+    height: 777px;
+
+    background: #ff793f;
+  }
+
+  .s2-sub {
+    font-weight: normal;
+    font-size: 24px;
+
+    margin-left: 40px;
+    color: #ffffff;
+    margin-top: 25px;
+  }
+
+  .s2-title {
+    font-weight: 600;
+    font-size: 48px;
+    margin-left: 40px;
+
+    color: #ffffff;
+    margin-top: 15px;
+  }
+
+  .s2-img {
+    width: 42px;
+    height: 55px;
+  }
+
+  .s2-info h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #ffffff;
+  }
+
+  .s2-info p {
+    font-size: 18px;
+    line-height: 27px;
+    width: 213px;
+
+    color: #ffffff;
+  }
+
+  .s2-box {
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 75px;
+    width: 65%;
+  }
+
+  .s2-info {
+    margin-right: 40px;
+  }
+
+  .s2-center {
+    width: 50%;
+    height: 777px;
+
+    background: #6f6d6d;
+  }
+
+  .s2-logo {
+    width: 205px;
+    height: 205px;
+    margin-left: 190px;
+  }
+
+  .s2c-par1 {
+    font-size: 24px;
+    line-height: 36px;
+    width: 386px;
+
+    color: #ffffff;
+    margin-left: 220px;
+    margin-top: 20px;
+  }
+
+  .s2c-par2 {
+    font-size: 24px;
+    line-height: 36px;
+    width: 386px;
+
+    color: #ffffff;
+    margin-left: 220px;
+    margin-top: 30px;
+  }
+
+  .s2-right {
+    width: 400px;
+    height: 550px;
+    position: absolute;
+    background: #fff;
+
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+  }
+
+  form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .s2-right form input {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 325px;
+    height: 50px;
+    border: none;
+    padding-left: 20px;
+    margin-top: 35px;
+
+    background: #ece4e4;
+    border-radius: 10px;
+    font-family: "poppins";
+    font-size: 18px;
+  }
+
+  .s2-message {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 325px;
+    height: 120px;
+    padding-left: 20px;
+    border: none;
+    margin-top: 35px;
+
+    background: #ece4e4;
+    border-radius: 10px;
+    padding-top: 5px;
+    font-family: "poppins";
+    font-size: 18px;
+  }
+
+  .s2-btn {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+    font-size: 18px;
+
+    color: #05b7fa;
+
+    width: 200px;
+    height: 50px;
+    background: none;
+
+    border: 2px solid #05b7fa;
+    border-radius: 5px;
+    cursor: pointer;
+  }
 }
