@@ -108,71 +108,73 @@
         </div>
       </div>
 
-      <div class="section5">
-        <div class="s5-left">
-          <h4 class="s5-sub">Get In Touch</h4>
-          <h2 class="s5-title">Contact Us</h2>
+      <div class="section6">
+        <div class="s6-left">
+          <h4 class="s6-sub">Get In Touch</h4>
+          <h2 class="s6-title">Contact Us</h2>
 
-          <div class="address s5-box">
+          <div class="address s6-box">
             <img
               src="{% static 'home/imgs/location.svg' %}"
               alt="Address"
               class="address-img"
             />
 
-            <div class="address-info s5-info">
+            <div class="address-info s6-info">
               <h3 class="address-title">ADDRESS</h3>
               <p class="address-par">8273 NW 56th ST Miami, 33195 US</p>
             </div>
           </div>
 
-          <div class="phone s5-box">
+          <div class="phone s6-box">
             <img
               src="{% static 'home/imgs/phone.svg' %}"
               alt="Phone"
               class="phone-img"
             />
 
-            <div class="phone-info s5-info">
+            <div class="phone-info s6-info">
               <h3 class="phone-title">OFFICE PHONE</h3>
               <p class="phone-par">+ 0511 01220 3320</p>
             </div>
           </div>
 
-          <div class="email s5-box">
+          <div class="email s6-box">
             <img
               src="{% static 'home/imgs/email.svg' %}"
               alt="Email"
               class="email-img"
             />
 
-            <div class="email-info s5-info">
+            <div class="email-info s6-info">
               <h3 class="email-title">EMAIL</h3>
               <p class="email-par">info@agrom.com</p>
             </div>
           </div>
         </div>
 
-        <div class="s5-center">
+        <div class="s6-center">
           <img
             src="{% static 'base/imgs/logo.png' %}"
             alt="Logo"
-            class="s5-logo"
+            class="s6-logo"
           />
 
-          <p class="s5c-par1">
+          <p class="s6c-par1">
             Images from FreePik, Kiranshastry and Fontawesome
           </p>
 
-          <p class="s5c-par2">Copyright 2020 Varber’s</p>
+          <p class="s6c-par2">Copyright 2020 Varber’s</p>
         </div>
 
-        <div class="s5-right">
-          <form action="">
-            <input type="text" class="s5-name" placeholder="Name" required />
+        <div class="s6-right">
+          <form method="POST">
+            {% csrf_token %}
+            {{ form }}
+            <!-- <input type="text" class="s6-name" placeholder="Name" required />
             <input
               type="text"
-              class="s5-email"
+              class="s6-email"
               placeholder="Email Address"
               required
             />
@@ -183,10 +185,10 @@
               cols="30"
               rows="10"
               placeholder="Your Message"
-              class="s5-message"
-            ></textarea>
+              class="s6-message"
+            ></textarea> -->
 
-            <button type="submit" class="s5-btn blue-btn">Submit</button>
+            <button type="submit" class="s6-btn blue-btn">Submit</button>
           </form>
         </div>
       </div>

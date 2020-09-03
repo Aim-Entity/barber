@@ -363,8 +363,9 @@
         </div>
 
         <div class="s6-right">
-          <form action="">
-            <input type="text" class="s6-name" placeholder="Name" required />
+          <form method="POST">
+            {% csrf_token %} {{ form }}
+            <!-- <input type="text" class="s6-name" placeholder="Name" required />
             <input
               type="text"
               class="s6-email"
@@ -379,8 +380,7 @@
               rows="10"
               placeholder="Your Message"
               class="s6-message"
-            ></textarea>
-
+            ></textarea> -->
             <button type="submit" class="s6-btn blue-btn">Submit</button>
           </form>
         </div>
