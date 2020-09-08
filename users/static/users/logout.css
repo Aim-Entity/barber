@@ -1,0 +1,66 @@
+.navigation {
+  background-color: #05b7fa;
+  height: 100px;
+}
+
+.base-ul {
+  margin: 0 auto;
+}
+
+legend {
+  padding-top: 15px;
+  border-bottom: solid 1px grey;
+  color: #fff;
+  font-size: 24px;
+  margin-left: 10%;
+  width: 215px;
+}
+
+small {
+  color: #fff;
+  font-size: 12px;
+  position: relative;
+  left: 10%;
+}
+
+.section6 {
+  margin-top: 55px;
+}
+
+h2,
+.link {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 960px) {
+  .logo {
+    display: none;
+  }
+
+  .navigation {
+    background-color: #05b7fa;
+    height: 100px;
+  }
+
+  .base-ul {
+    margin: 0 auto;
+  }
+
+  legend {
+    padding-top: 15px;
+    border-bottom: solid 1px grey;
+    color: #fff;
+    font-size: 32px;
+    margin-left: 10%;
+    width: 215px;
+  }
+
+  small {
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    left: 22%;
+    top: 15px;
+  }
+}

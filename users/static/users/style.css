@@ -58,6 +58,9 @@ legend {
 #div_id_password2 div input {
   position: relative;
 
+  padding-left: 10px;
+  font-size: 22px;
+  font-family: "Poppins";
   width: 215px;
   height: 28px;
   border-radius: 4px;
