@@ -9,6 +9,7 @@ autopep8 = "*"
 [packages]
 django = "==3.0.2"
 django-crispy-forms = "*"
+pillow = "*"
 
 [requires]
 python_version = "3.7"

@@ -232,74 +232,27 @@
 
       <div class="section5">
         <div class="section5-container">
+          {% for test in tests %}
           <div class="s5-box b1">
-            <h2 class="s5-title">It Was Easy And Quick To Use</h2>
-            <p class="s5-par">
-              sed viverra tellus in hac habitasse platea dictumst vestibulum
-              rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt
-            </p>
+            <h2 class="s5-title">{{ test.title }}</h2>
+            <p class="s5-par">{{ test.par }}</p>
 
             <hr class="s5-line" />
 
             <div class="s5-author">
               <img
-                src="{% static 'home/imgs/face1.jpg' %}"
+                src="{{ test.face.url }}"
                 alt="testimonial"
                 class="s5-author-img"
               />
 
               <div class="s5-author-info">
-                <h3 class="s5-name">Robert Kyle</h3>
-                <p class="s5-date">January 13, 2019</p>
+                <h3 class="s5-name">{{ test.name }}</h3>
+                <p class="s5-date">{{ test.date }}</p>
               </div>
             </div>
           </div>
-
-          <div class="s5-box b2">
-            <h2 class="s5-title">It Was Easy And Quick To Use</h2>
-            <p class="s5-par">
-              sed viverra tellus in hac habitasse platea dictumst vestibulum
-              rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt
-            </p>
-
-            <hr class="s5-line" />
-
-            <div class="s5-author">
-              <img
-                src="{% static 'home/imgs/face1.jpg' %}"
-                alt="testimonial"
-                class="s5-author-img"
-              />
-
-              <div class="s5-author-info">
-                <h3 class="s5-name">Robert Kyle</h3>
-                <p class="s5-date">January 13, 2019</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="s5-box b3">
-            <h2 class="s5-title">It Was Easy And Quick To Use</h2>
-            <p class="s5-par">
-              sed viverra tellus in hac habitasse platea dictumst vestibulum
-              rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt
-            </p>
-
-            <hr class="s5-line" />
-
-            <div class="s5-author">
-              <img
-                src="{% static 'home/imgs/face1.jpg' %}"
-                alt="testimonial"
-                class="s5-author-img"
-              />
-
-              <div class="s5-author-info">
-                <h3 class="s5-name">Robert Kyle</h3>
-                <p class="s5-date">January 13, 2019</p>
-              </div>
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
 
