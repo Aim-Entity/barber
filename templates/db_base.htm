@@ -13,7 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="{% static 'dashboard/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'dashboard/base/style.css' %}" />
   </head>
   <body>
     <div class="base-container">
@@ -81,7 +81,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="{% static 'dashboard/app.js' %}"></script>
+    <script src="{% static 'dashboard/base/app.js' %}"></script>
     {% block content %} ADD A CONTENT BLOCK {% endblock %}
   </body>
 </html>

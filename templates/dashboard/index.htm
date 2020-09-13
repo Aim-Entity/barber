@@ -1,4 +1,4 @@
-{% extends 'db_base.htm' %}
+{% extends 'db_base.htm' %} {% load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,11 +6,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {% block head %}
     <title>Dashboard</title>
+    <link rel="stylesheet" href="{% static 'dashboard/style.css' %}" />
     {% endblock %}
   </head>
   <body>
     {% block content %}
-    <h1>Hello</h1>
+    <div class="container">
+      <div class="section1">
+        <div class="search">
+          <input type="text" class="search-bar" placeholder="Search Location" />
+          <img
+            src="{% static 'dashboard/imgs/mag.svg' %}"
+            alt="Mag"
+            class="mag"
+          />
+        </div>
+      </div>
+
+      <div class="section2">
+        <div class="s2-box">
+          <div class="s2-top">
+            <img
+              src="{% static 'dashboard/imgs/barber.jpg' %}"
+              alt="barber"
+              class="s2-img"
+            />
+
+            <div class="s2-info">
+              <h3 class="s2-title">BARBER NAME</h3>
+
+              <p class="s2-par">BARBER ADDRESS</p>
+            </div>
+          </div>
+
+          <div class="s2-mid">
+            <div>
+              <div class="views stats">
+                <img
+                  src="{% static 'dashboard/imgs/view.svg' %}"
+                  alt="views"
+                  class="view-img"
+                />
+
+                <p>32,000</p>
+              </div>
+              <div class="star stats">
+                <img
+                  src="{% static 'dashboard/imgs/star.svg' %}"
+                  alt="stars"
+                  class="star-img"
+                />
+
+                <p>4.5</p>
+              </div>
+              <div class="comment stats">
+                <img
+                  src="{% static 'dashboard/imgs/comment.svg' %}"
+                  alt="comments"
+                  class="comment-img"
+                />
+
+                <p>25</p>
+              </div>
+            </div>
+
+            <button class="s2-btn">View</button>
+          </div>
+        </div>
+
+        <div class="s2-box">
+          <div class="s2-top">
+            <img
+              src="{% static 'dashboard/imgs/barber.jpg' %}"
+              alt="barber"
+              class="s2-img"
+            />
+
+            <div class="s2-info">
+              <h3 class="s2-title">BARBER NAME</h3>
+
+              <p class="s2-par">BARBER ADDRESS</p>
+            </div>
+          </div>
+
+          <div class="s2-mid">
+            <div>
+              <div class="views stats">
+                <img
+                  src="{% static 'dashboard/imgs/view.svg' %}"
+                  alt="views"
+                  class="view-img"
+                />
+
+                <p>32,000</p>
+              </div>
+              <div class="star stats">
+                <img
+                  src="{% static 'dashboard/imgs/star.svg' %}"
+                  alt="stars"
+                  class="star-img"
+                />
+
+                <p>4.5</p>
+              </div>
+              <div class="comment stats">
+                <img
+                  src="{% static 'dashboard/imgs/comment.svg' %}"
+                  alt="comments"
+                  class="comment-img"
+                />
+
+                <p>25</p>
+              </div>
+            </div>
+
+            <button class="s2-btn">View</button>
+          </div>
+        </div>
+      </div>
+    </div>
     {% endblock %}
   </body>
 </html>
